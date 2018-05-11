@@ -16,7 +16,6 @@ body{
 .contenedor{
     border: 5px solid #ccc;
     position: relative;
-    float: left;
     left: 20%;
     width: 60%;
     top: 75px;
@@ -53,7 +52,7 @@ h2{
 .contH1{
     border: solid 2px red;
     width: 91%;
-    float: left;
+  
 }
 .desc {
     padding: 15px;
@@ -109,7 +108,6 @@ footer{
     border: solid 1px blue;
     width: 72%;
     position: relative;
-    float: left;
     left: 13%;
     background-color: rgba(17, 16, 16, 0.63);
 }
