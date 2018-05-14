@@ -1,13 +1,38 @@
-.menu{
-    position: sticky;
+nav{
     top: 0;
+    border: 1px solid aqua;
+    position: sticky;
+    z-index: 10000;
+
+
+}
+.menu{
     padding: 0px;
     background-color: rgba(17, 16, 16, 0.63);
+    border: rgba(240, 233, 233, 0.822) 1px solid;
+    position: relative;
+}
+.contenidosubmenu{
+    display: none;
     z-index: 10000;
-    
+    position: absolute;
+    top: 27px;
+
+}
+.submenu:hover .contenidosubmenu{
+    display: block;
+    animation: prueba 2s;
+}
+@keyframes prueba{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 ul{
-    border: rgba(240, 233, 233, 0.822) 1px solid;
+    
     top: 0px;
     padding: 5px;
     margin: 0;

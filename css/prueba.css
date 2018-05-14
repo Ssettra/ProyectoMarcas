@@ -1,6 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body{
-    margin: 10px 0px 0px 0px;
-    background-image: url("../img/background.jpg");
+    margin: 0px;
     background-color: black;
  
 }
@@ -9,17 +11,19 @@ body{
 
 .main{
     border: aquamarine 1px solid;
-    position: relative;
-    height: 768px;
+    padding: 10px 0px 0px 0px;
+    background-image: url("../img/background.jpg");
+    width: 100%;
+    height: auto;
 
 }
 .contenedor{
     border: 5px solid #ccc;
     position: relative;
-    left: 20%;
     width: 60%;
-    top: 75px;
-    height: auto;
+    min-height: 720px;
+    left: 20%;
+    top: 5%;
     animation: prueba2 2s;
 }
 @keyframes prueba2{
@@ -52,7 +56,7 @@ h2{
 .contH1{
     border: solid 2px red;
     width: 91%;
-  
+   
 }
 .desc {
     padding: 15px;
@@ -62,29 +66,33 @@ h2{
 
                                 /*--------------FOOTER--------------*/
 footer{
-    width: 100%;
-    height: 20%;
-    position: relative;
-    float: right;
-    top: 33%;
     background-color: rgb(17, 16, 16);
+    margin-top: 5%;
+    color: #FFF;
+    padding: 15px;
+    width: 100%;
+    z-index: 100;
 }
 .pFooter{
     text-align: center;
     color: white;
     position: relative;
-    float: left;
-    width: 30%;
-    left: 19%;
-    top: 15%;
+    border: 1px solid red;
+    margin: 0;
+    width: 20%;
+    left: 37%;
+    bottom: 15px;
+    
 }
-.socialMedia i{
+.socialMedia{
+    background-color: rgb(10, 31, 48);
     position: relative;
-    float: left;
-    left: 6%;
-    padding: 10px;
+    width: 9%;
+    top: 21px;
+}
+.socialMedia a{
     font-size: 30px;
-    top: 30px;
+    text-decoration: none;
 
 }
 
@@ -106,10 +114,12 @@ footer{
 .galeria{
     padding: 13px;
     border: solid 1px blue;
-    width: 72%;
-    position: relative;
+    width: 75%;
     left: 13%;
+
+    position: relative;
     background-color: rgba(17, 16, 16, 0.63);
+
 }
 .dropdown {
     position: relative;
