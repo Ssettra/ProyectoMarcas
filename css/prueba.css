@@ -19,11 +19,12 @@ body{
 }
 .contenedor{
     border: 5px solid #ccc;
+    background-color: rgba(17, 16, 16, 0.63);
     position: relative;
     width: 60%;
     min-height: 720px;
     left: 20%;
-    top: 5%;
+    top: 40px;
     animation: prueba2 2s;
 }
 @keyframes prueba2{
@@ -77,7 +78,6 @@ footer{
     text-align: center;
     color: white;
     position: relative;
-    border: 1px solid red;
     margin: 0;
     width: 20%;
     left: 37%;
@@ -85,9 +85,7 @@ footer{
     
 }
 .socialMedia{
-    background-color: rgb(10, 31, 48);
     position: relative;
-    width: 9%;
     top: 21px;
 }
 .socialMedia a{
@@ -113,12 +111,9 @@ footer{
 
 .galeria{
     padding: 13px;
-    border: solid 1px blue;
     width: 75%;
     left: 13%;
-
     position: relative;
-    background-color: rgba(17, 16, 16, 0.63);
 
 }
 .dropdown {

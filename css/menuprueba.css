@@ -6,7 +6,7 @@ header {
     height: 120px;
     top: 0px;
     position: sticky;
-    z-index: 1000;
+    z-index: 10000;
 }
 .logo {
     display: flex;
@@ -18,25 +18,11 @@ header {
 .logo img {
     align-self: center;
 }
-nav{
-    top: 0;
-    border: 1px solid aqua;
-    position: sticky;
-    z-index: 10000;
-
-
-}
-.menu{
-    padding: 0px;
-    background-color: rgba(17, 16, 16, 0.63);
-    border: rgba(240, 233, 233, 0.822) 1px solid;
-    position: relative;
-}
 .contenidosubmenu{
     display: none;
     z-index: 10000;
     position: absolute;
-    top: 27px;
+    top: 50px;
 
 }
 .submenu:hover .contenidosubmenu{
