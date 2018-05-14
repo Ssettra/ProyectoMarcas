@@ -22,7 +22,7 @@ body{
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
     width: 60%;
-    min-height: 720px;
+    min-height: 685px;
     left: 20%;
     top: 40px;
     animation: prueba2 2s;
@@ -68,7 +68,7 @@ h2{
                                 /*--------------FOOTER--------------*/
 footer{
     background-color: rgb(17, 16, 16);
-    margin-top: 5%;
+    margin-top: 10%;
     color: #FFF;
     padding: 15px;
     width: 100%;
