@@ -1,3 +1,23 @@
+header {
+    border: solid 1px lightgray;
+    background-color: rgba(17, 16, 16, 0.63);
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    height: 120px;
+    top: 0px;
+    position: sticky;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    float: left;
+    height: 100%;
+}
+.logo img {
+    align-self: center;
+}
 nav{
     top: 0;
     border: 1px solid aqua;
