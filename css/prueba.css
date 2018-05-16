@@ -17,6 +17,23 @@ body{
     height: auto;
 
 }
+.separador img{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    right: 0%;
+    animation: prueba3 2s;
+}
+@keyframes prueba3{
+    0%{
+        opacity: 0;
+        right: 80%;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
 .contenedor{
     border: 5px solid #ccc;
     background-color: rgba(17, 16, 16, 0.63);
@@ -25,9 +42,9 @@ body{
     min-height: 685px;
     left: 20%;
     top: 40px;
-    animation: prueba2 2s;
+    animation: construccion 2s;
 }
-@keyframes prueba2{
+@keyframes construccion{
     0%{
         opacity: 0;
         left: 80%;
