@@ -21,9 +21,9 @@ body{
     width: 100%;
     position: relative;
     right: 0%;
-    animation: prueba3 2s;
+    animation: animacion 2s;
 }
-@keyframes prueba3{
+@keyframes animacion{
     0%{
         opacity: 0;
         right: 80%;
@@ -42,9 +42,9 @@ body{
     min-height: 535px;
     left: 20%;
     top: 40px;
-    animation: construccion 2s;
+    animation: animacion2 2s;
 }
-@keyframes construccion{
+@keyframes animacion2{
     0%{
         opacity: 0;
         left: 80%;
@@ -148,7 +148,7 @@ div.dropdown > img{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(17, 16, 16);
+    background-color: rgba(17, 16, 16,0.85);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -165,9 +165,9 @@ div.dropdown-content a img{
     display: block;
     top: 75px;
     left: 125px;
-    animation: prueba 2s;
+    animation: galeria 2s;
 }
-@keyframes prueba {
+@keyframes galeria {
     0% {
         opacity: 0;
         filter: grayscale(100%);
