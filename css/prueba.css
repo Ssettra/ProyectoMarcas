@@ -18,7 +18,7 @@ body{
 
 }
 .separador img{
-    height: 500px;
+    height: 450px;
     width: 100%;
     position: relative;
     right: 0%;
@@ -35,7 +35,8 @@ body{
 
 }
 .contenedor{
-    border: 5px solid #ccc;
+    border: 3px solid #ccc;
+    border-radius: 15px;
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
     width: 60%;
