@@ -10,7 +10,6 @@ body{
                                 /*--------------COMPONENTES LAYOUT--------------*/
 
 .main{
-    border: aquamarine 1px solid;
     padding: 10px 0px 0px 0px;
     background-image: url("../img/background.jpg");
     width: 100%;
@@ -40,7 +39,7 @@ body{
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
     width: 60%;
-    min-height: 685px;
+    min-height: 535px;
     left: 20%;
     top: 40px;
     animation: construccion 2s;
