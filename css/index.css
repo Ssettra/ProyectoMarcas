@@ -11,13 +11,13 @@ body{
 
 .main{
     padding: 10px 0px 0px 0px;
-    background-image: url("../img/background.jpg");
+   /* background-image: url("../img/background.jpg");*/
     width: 100%;
     height: auto;
 
 }
 .separador img{
-    height: 450px;
+    height: 370px;
     width: 100%;
     position: relative;
     right: 0%;
@@ -38,9 +38,9 @@ body{
     border-radius: 15px;
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
-    width: 60%;
+    width: 49%;
     min-height: 535px;
-    left: 20%;
+    left: 25%;
     top: 40px;
     animation: animacion2 2s;
 }
@@ -83,7 +83,7 @@ h2{
 
                                 /*--------------FOOTER--------------*/
 footer{
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(32, 32, 32);
     margin-top: 10%;
     color: #FFF;
     padding: 15px;
