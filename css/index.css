@@ -16,9 +16,12 @@ body{
     height: auto;
 
 }
-.separador img{
+.separador{
     height: 370px;
     width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     right: 0%;
     animation: animacion 2s;
@@ -38,9 +41,9 @@ body{
     border-radius: 15px;
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
-    width: 49%;
+    width: 59%;
     min-height: 535px;
-    left: 25%;
+    left: 20%;
     top: 40px;
     animation: animacion2 2s;
 }
