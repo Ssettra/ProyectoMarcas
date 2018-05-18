@@ -16,12 +16,16 @@ body{
     height: auto;
 
 }
-.separador img{
-    height: 370px;
+.separador {
+    height: 390px;
     width: 100%;
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
     position: relative;
     right: 0%;
     animation: animacion 2s;
+    filter: brightness(80%);
 }
 @keyframes animacion{
     0%{
@@ -34,7 +38,7 @@ body{
 
 }
 .contenedor{
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 15px;
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
@@ -43,6 +47,7 @@ body{
     left: 25%;
     top: 40px;
     animation: animacion2 2s;
+    padding: 15px;
 }
 @keyframes animacion2{
     0%{
