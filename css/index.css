@@ -16,28 +16,16 @@ body{
     height: auto;
 
 }
-
 .separador {
     height: 390px;
     width: 100%;
     background-image: url("../img/maxresdefault.jpg");
     background-size: cover;
     background-position: center;
-}
-.separador{
-    height: 370px;
-    width: 100%;
-    background-image: url(../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.separador img{
-    height: 370px;
-    width: 100%;
-
     position: relative;
     right: 0%;
     animation: animacion 2s;
+    filter: brightness(80%);
 }
 @keyframes animacion{
     0%{
@@ -50,15 +38,16 @@ body{
 
 }
 .contenedor{
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 15px;
     background-color: rgba(17, 16, 16, 0.63);
     position: relative;
-    width: 59%;
+    width: 49%;
     min-height: 535px;
-    left: 20%;
+    left: 25%;
     top: 40px;
     animation: animacion2 2s;
+    padding: 15px;
 }
 @keyframes animacion2{
     0%{
