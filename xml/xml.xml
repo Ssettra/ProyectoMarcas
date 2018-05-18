@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="videos.xsl"?>
+<?xml-stylesheet type="text/xml" href=".xsl"?>
 <cursos>
 	<curso num="1">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY"/>
-		<nombre>Curso: Guitarra </nombre>
-		<tiempo>50h </tiempo>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Guitarra</nombre>
+		<tiempo>50h</tiempo>
 		<precio>159€</precio>
 		<descripcion>
 			Si eres un apasionado de la guitarra, este es tu curso.
@@ -14,8 +14,8 @@
 		</descripcion>
 	</curso>
 	<curso num="2">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY"/>
-		<nombre>Curso: Percusion</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Percusion</nombre>
 		<tiempo>300h</tiempo>
 		<precio>400€</precio>
 		<descripcion>
@@ -26,8 +26,8 @@
 		</descripcion>
 	</curso>
 	<curso num="3">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY"/>
-		<nombre>Curso: Trompeta</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Trompeta</nombre>
 		<tiempo>100h</tiempo>
 		<precio>175€</precio>
 		<descripcion>
@@ -45,8 +45,8 @@
 		</descripcion>
 	</curso>
 	<curso num="4">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"/>
-		<nombre>Curso: Piano</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Piano</nombre>
 		<tiempo>550h</tiempo>
 		<precio>1.050€</precio>
 		<descripcion>
@@ -59,8 +59,8 @@
 		</descripcion>
 	</curso>
 	<curso num="5">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"/>
-		<nombre>Curso: Violin</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Violin</nombre>
 		<tiempo>20h</tiempo>
 		<precio>25€</precio>
 		<descripcion>
@@ -73,8 +73,8 @@
 		</descripcion>
 	</curso>
 	<curso num="6">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"/>
-		<nombre>Curso: Saxofon</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Saxofon</nombre>
 		<tiempo>70h</tiempo>
 		<precio>120€</precio>
 		<descripcion>
@@ -91,21 +91,21 @@
 			A partir de los 8 años y sin límite de edad.
 		</descripcion>
 	</curso>
-	<curso num="7">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"/>
-		<nombre>Curso: Bajo</nombre>
+		<curso num="7">
+		<img ruta="./img/background.jpg"/>
+		<nombre>Bajo</nombre>
 		<tiempo>140h</tiempo>
 		<precio>120€</precio>
 		<descripcion>
-			Si alguna vez has querido tocar el bajo en una banda, o si ya lo haces pero te faltan conocimientos y recursos, este curso es para ti.
-			Desarrolla tu oído de bajista, comprende la función del bajo y aprende aspectos técnicos y tecnológicos,
-			conceptos básicos sobre diferentes estilos y sobre la notación para el bajo. Todo con el fin de poder concebir
-			y construir líneas de bajo efectivas y musicales.
+		Si alguna vez has querido tocar el bajo en una banda, o si ya lo haces pero te faltan conocimientos y recursos, este curso es para ti.
+		Desarrolla tu oído de bajista, comprende la función del bajo y aprende aspectos técnicos y tecnológicos,
+		 conceptos básicos sobre diferentes estilos y sobre la notación para el bajo. Todo con el fin de poder concebir
+		  y construir líneas de bajo efectivas y musicales.
 		</descripcion>
 	</curso>
 	<curso num="8">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY"/>
-		<nombre>Curso: Tecnico en Sonido</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Tecnico en Sonido</nombre>
 		<tiempo>2 Años</tiempo>
 		<precio>6.250€</precio>
 		<descripcion>
@@ -128,8 +128,8 @@
 		</descripcion>
 	</curso>
 	<curso num="9">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"/>
-		<nombre>Curso: Master Produccion Musical</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Master Produccion Musical</nombre>
 		<tiempo>210h</tiempo>
 		<precio>4.700€</precio>
 		<descripcion>
@@ -141,8 +141,8 @@
 		</descripcion>
 	</curso>
 	<curso num="10">
-		<video ruta="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"/>
-		<nombre>Curso: Musicoterapia</nombre>
+		<img ruta="./img/background.jpg"/>
+		<nombre>Musicoterapia</nombre>
 		<tiempo>220h</tiempo>
 		<precio>190€</precio>
 		<descripcion>
